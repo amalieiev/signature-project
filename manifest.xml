@@ -4,8 +4,8 @@
   <Version>1.0.0.0</Version>
   <ProviderName>signature</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="signature Cloud"/>
-  <Description DefaultValue="View and insert signatures based on your signature Cloud Signatures subscription."/>
+  <DisplayName DefaultValue="Signature Cloud"/>
+  <Description DefaultValue="View and insert signatures based on your Cloud Signatures subscription."/>
   <IconUrl DefaultValue="https://{blobStore}/assets/logo.png"/>
   <HighResolutionIconUrl DefaultValue="https://{blobStore}/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://www.signature.com/support/"/>
@@ -98,10 +98,10 @@
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-          <bt:String id="TaskpaneButton.Label" DefaultValue="Show signature Cloud Signatures"/>
+          <bt:String id="TaskpaneButton.Label" DefaultValue="Show Cloud Signatures"/>
         </bt:ShortStrings>
         <bt:LongStrings>
-          <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show the list of signature Cloud Signatures available"/>
+          <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show the list of Cloud Signatures available"/>
         </bt:LongStrings>
       </Resources>
     </VersionOverrides>

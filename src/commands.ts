@@ -1,3 +1,6 @@
+import { SIGNATURE_STORAGE_KEY } from "./constants";
+import { getFromStorageAsync, setSignatureAsync } from "./office";
+
 Office.onReady(() => {});
 
 export async function onMessageComposeHandler(event): Promise<void> {
@@ -5,7 +8,10 @@ export async function onMessageComposeHandler(event): Promise<void> {
     event.completed();
 }
 
-export async function insertSignatureOnCompose() {}
+export async function insertSignatureOnCompose() {
+    const signature = await getFromStorageAsync(SIGNATURE_STORAGE_KEY);
+    await setSignatureAsync(signature);
+}
 
 export function getGlobal() {
     if (typeof self !== "undefined") {
